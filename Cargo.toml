@@ -38,6 +38,10 @@ required-features = ["lcd"]
 name = "sdcard_test"
 required-features = ["sdcard"]
 
+[[example]]
+name = "more_ferris"
+required-features = ["lcd", "sdcard"]
+
 [package.metadata.docs.rs]
 features = ['lcd']
 rustdoc-args = ["--cfg", "docsrs"]
